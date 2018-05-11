@@ -1,20 +1,23 @@
 body{
-	background: #0364E5;
-	font-family: Helvetica;
-	margin: 40px;
+	background: white;
+	font-family: No Sugar;
+	font-size: 175%;
+	margin: 175px;
 	text-align: center;
-}
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=86776) auto;
+	}
+	
 
 .grid {
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: 30% 30% 30%;
-        background-color: #0364E5;
+		display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 22% 22% 23% 22%;
+        background-color: white;
         color: #444;
     }
 
     .box {
-        background-color: #444;
+        background-color: #509646;
         color: #fff;
         border-radius: 5px;
         padding: 20px;
@@ -23,19 +26,14 @@ body{
     }
 
     .a {
-        grid-column: 1 / span 1;
+        grid-column: 1 / span 2;
     }
     .b {
-        grid-column: 2 ;
-        grid-row: 1 / span 1;
-    }
-    .c {
-        grid-column: 1 ;
-        grid-row: 2 ;
-    }
+        grid-column: 3 / span 2;
+	}
     .d {
-        grid-column: 2 ;
-        grid-row: 2 ;
+        grid-column: 2 / span 2;
+        grid-row: 2 / span 1;
     }
 
 ul {
@@ -43,11 +41,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #86AB75;
+    background-color: #509646;
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -58,7 +56,26 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #fff;
+    background-color: #A6D491;
 }
+marquee{
+	color: #D47F99;
+	direction: left;
+	font-size: 40px;
+	}
+@font-face {
+    font-family: "Pentay";
+    src: url("Pentay-Book-ffp.ttf");
+}
+@font-face {
+    font-family: "Froggie";
+    src: url("Mister Frogie Regular.otf");
+}
+@font-face {
+    font-family: "No Sugar";
+    src: url("No Added Sugar.otf");
+}
+
+li a:hover {
+    background-color: #A6D491;
