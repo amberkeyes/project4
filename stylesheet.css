@@ -4,6 +4,7 @@ body{
 	font-size: 175%;
 	margin: 75px;
 	text-align: center;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=86776), auto;
 	}
 	
 
@@ -78,3 +79,4 @@ marquee{
 
 li a:hover {
     background-color: #A6D491;
+}
